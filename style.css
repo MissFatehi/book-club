@@ -98,6 +98,7 @@ h1{
 .developers-box{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
 }
 .dev-img{
@@ -162,7 +163,7 @@ width: 20%;
      font-family: "myFont-H";
     font-weight: bold;
     font-size: 40px;
-    flex: 1;
+    
 }
 
 .reading3-img{
@@ -176,13 +177,14 @@ height:100%;
 }
 
 .title-4 , .title-5{
+    width: 100%;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px 0 20px 0 ;
     color:  #062630;
 }
 
-.main-box4 , .main-box5{
+.main-box4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,3 +242,137 @@ height:100%;
 
 .arrow-right{
 width: 30%;}
+
+.main-box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    height: fit-content;  
+    padding: 20px;  
+    margin-top: 40px;
+}
+
+.price-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px 100px;
+
+}
+
+.price-title{
+    width: 100%;
+    font-size: 25px;
+    font-family:"myFont-H" ;
+    color: #062630;
+    line-height: 60px;
+}
+
+.price-item{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+.price{
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+
+.price-item p , .price-item-2 p{
+    width: 100%;
+    font-size: 20px;
+    color: #062630;
+}
+
+
+.price-item span , .price-item-2 span{
+    font-size: 40PX;
+    font-weight: bold;
+}
+
+.subscribe{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.price-item-2{
+flex: 1.2;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+ .main-box6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: fit-content;  
+    padding: 40px 120px;  
+    margin-top: 40px;
+    color: #062630;
+    text-align: center;
+    font-family: "myFont-H";
+ }
+
+ .main-box6 p{
+    font-family:"myFont" ;
+    font-size: 20px;
+ }
+
+
+ footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: #062630;
+    background-image: url("./pictures/pattern-dark-bg.svg");
+     color:aliceblue;
+     padding: 100px 200px 20px 200px;
+ }
+
+footer h2{
+    font-size: 60px;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.social-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+footer .btn-review{
+    width: fit-content;
+    border-color: white;
+}
+footer .developers-box{
+    justify-content: center;
+}
